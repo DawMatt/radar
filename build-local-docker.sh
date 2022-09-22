@@ -7,4 +7,4 @@
 export REPO=dawmatt/tech-radar-generator
 export TAG=latest
 
-docker run -d --rm -v $(pwd):/build $REPO:$TAG
+docker run -d --rm -v "$(pwd)":/build $REPO:$TAG

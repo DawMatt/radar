@@ -52,7 +52,7 @@
             "name": "Postman",
             "quadrant": "Tools",
             "ring": "trial",
-            "isNew": true,
+            "isNew": false,
             "description": "This is a simple description"
         },
         {
@@ -129,14 +129,14 @@
             "name": "CloudFlare",
             "quadrant": "Platforms",
             "ring": "trial",
-            "isNew": "new",
+            "isNew": true,
             "description": "<p>Simple, cheap way to deploy personal projects.</p>"
         },
         {
             "name": "Azure Static Websites",
             "quadrant": "Tools",
             "ring": "assess",
-            "isNew": "new",
+            "isNew": true,
             "description": "<p>Alternative simple, cheap way to deploy personal projects via BLOB storage.</p>"
         },
         {

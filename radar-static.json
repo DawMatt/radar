@@ -1,0 +1,157 @@
+{
+    "title": "Integration Radar",
+    "quadrants": [
+        "Practices & Techniques",
+        "Tools",
+        "Platforms",
+        "Standards & Frameworks"
+    ],
+    "rings": [
+        "adopt",
+        "trial",
+        "assess",
+        "hold"
+    ],
+    "blips": [
+        {
+            "name": "Spectral",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "<p>Static error- and style-checking tools often emerge after a new language gains popularity. These tools are generically known as linters — after the Unix lint utility which statically analyses C code. These tools catch errors early, before code even gets compiled, and can help keep code reviews focused on more significant topics than code styles and formatting. A recent instance of this pattern is <a href=\"https://stoplight.io/open-source/spectral/\">Spectral</a>, a linter for YAML and JSON. Although Spectral is a generic tool for these formats, its main target is OpenAPI and AsyncAPI. Spectral ships with a comprehensive set of out-of-the-box rules for these specs that can save developers headaches when designing and implementing APIs or event-driven collaboration. These rules check for proper API parameter specifications or the existence of a license statement in the spec, among other things.</p><p>BlueScope's Integration team is assessing Spectral's use in both the IDE (via Visual Studio and Visual Studio Code extensions) and in build pipelines. If adopted a custom ruleset would be published to reflect BlueScope's API Guidelines, making it easier for developers to align with current best practices in API development.</p>"
+        },
+        {
+            "name": "AsyncAPI",
+            "quadrant": "Standards & Frameworks",
+            "ring": "assess",
+            "isNew": true,
+            "description": "<p>This is a description</p><p>Formatted into paragraphs</p>"
+        },
+        {
+            "name": "CloudEvents",
+            "quadrant": "Standards & Frameworks",
+            "ring": "assess",
+            "isNew": true,
+            "description": "<p>This is a description</p><p>Formatted into paragraphs</p>"
+        },
+        {
+            "name": "OpenAPI",
+            "quadrant": "Standards & Frameworks",
+            "ring": "adopt",
+            "isNew": false,
+            "description": "<p>This is a description</p><p>Formatted into paragraphs</p>"
+        },
+        {
+            "name": "Postman",
+            "quadrant": "Tools",
+            "ring": "trial",
+            "isNew": true,
+            "description": "This is a simple description"
+        },
+        {
+            "name": "SwaggerHub",
+            "quadrant": "Tools",
+            "ring": "hold",
+            "isNew": true,
+            "description": "High level of feature overlap with Postman. Use it instead."
+        },
+        {
+            "name": "Design First APIs",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a simple description"
+        },
+        {
+            "name": "Kubernetes",
+            "quadrant": "Platforms",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a simple description"
+        },
+        {
+            "name": "Azure PaaS",
+            "quadrant": "Platforms",
+            "ring": "adopt",
+            "isNew": false,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "Rabbit MQ",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": false,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "IBM MQ",
+            "quadrant": "Tools",
+            "ring": "hold",
+            "isNew": false,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "GraphQL",
+            "quadrant": "Standards & Frameworks",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Potential for 'Backends for Frontends' pattern and Experience APIs. Watch out for anti-pattern: Exposing Application Internal Structure/Logic"
+        },
+        {
+            "name": "OData",
+            "quadrant": "Standards & Frameworks",
+            "ring": "trial",
+            "isNew": false,
+            "description": "Utilised by Dynamics 365 and SalesForce. Watch out for anti-pattern: Exposing Application Internal Structure/Logic"
+        },
+        {
+            "name": "Architectural Fitness Functions and Evolutionary Architecture",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "Technical Management Plan",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "Azure DevOps",
+            "quadrant": "Platforms",
+            "ring": "adopt",
+            "isNew": false,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "Terraform",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "Azure Bicep",
+            "quadrant": "Standards & Frameworks",
+            "ring": "assess",
+            "isNew": true,
+            "description": "<p>For those who prefer a more natural language than JSON for infrastructure code, <a href=\"https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep\">Azure Bicep</a> is a domain-specific language (DSL) that uses a declarative syntax. It supports reusable parameterized templates for modular resource definitions. A <a href=\"https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep\">Visual Studio Code extension</a> provides instant type-safety, intellisense and syntax checking, and the compiler allows bidirectional transpilation to and from ARM templates. Bicep's resource-oriented DSL and native integration with the Azure ecosystem make it a compelling choice for Azure infrastructure development</p>"
+        },
+        {
+            "name": "Products, not Projects",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines.<br /><br />This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "webMethods A2A and B2B",
+            "quadrant": "Platforms",
+            "ring": "hold",
+            "isNew": false,
+            "description": "The webMethods product suite implemented Application to Application (A2A) and Business to Business (B2B) integrations prior to selecting the Future Integration Platform (FIP) in 2016.<br/>webMethods is deprecated and no new development should occur in this platform. Projects are being established to replace the remaining webMethods integrations by the end of 2024.<br/><a href=\"https://bssfip.atlassian.net/wiki/spaces/~62336401/pages/2440462337/webMethods+A2A+and+B2B\">Blip history</a>"
+        }
+    ]
+}

@@ -1,0 +1,191 @@
+{
+    "title": "Matt's Technology Radar",
+    "quadrants": [
+        "Practices & Techniques",
+        "Tools",
+        "Platforms",
+        "Standards & Frameworks"
+    ],
+    "rings": [
+        "adopt",
+        "trial",
+        "assess",
+        "hold"
+    ],
+    "blips": [
+        {
+            "name": "Spectral",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Static error- and style-checking tools often emerge after a new language gains popularity. These tools are generically known as linters — after the Unix lint utility which statically analyses C code. These tools catch errors early, before code even gets compiled, and can help keep code reviews focused on more significant topics than code styles and formatting. A recent instance of this pattern is <a href=\"https://stoplight.io/open-source/spectral/\">Spectral</a>, a linter for YAML and JSON. Although Spectral is a generic tool for these formats, its main target is OpenAPI and AsyncAPI. Spectral ships with a comprehensive set of out-of-the-box rules for these specs that can save developers headaches when designing and implementing APIs or event-driven collaboration. These rules check for proper API parameter specifications or the existence of a license statement in the spec, among other things.<br/><br/>Assessing Spectral's use in both the IDE (via Visual Studio and Visual Studio Code extensions) and in build pipelines. If adopted a custom ruleset would be published to reflect BlueScope's API Guidelines, making it easier for developers to align with current best practices in API development.<br/><br/>Source: ThoughtWorks, Various"
+        },
+        {
+            "name": "Optic",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "CI compatible OpenAPI evolution checking tool.<br/><br/>Source: <a href=\"https://www.apiscene.io/lifecycle/detecting-breaking-changes-across-api-versions/\">APIScene/Kin Lane</a>"
+        },
+        {
+            "name": "Postman",
+            "quadrant": "Tools",
+            "ring": "trial",
+            "isNew": false,
+            "description": "Hypothesis: Can be used for design first APIs (assess - competing with Stoplight), mocking APIs, exploratory testing, and verifying compliance of implementation to specification. Supports GraphQL in addition to RESTful."
+        },
+        {
+            "name": "Newman",
+            "quadrant": "Tools",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Hypothesis: Extending Postman capabilities to the command line. Use for regression testing, contract testing, and from CI pipelines."
+        },
+        {
+            "name": "Stoplight Studio",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Hypothesis: Used for design first APIs. Can maintain and apply enterprise API standards. Some overlap with Postman functionality, but seems better suited for design first approach."
+        },
+        {
+            "name": "Insomnia",
+            "quadrant": "Tools",
+            "ring": "hold",
+            "isNew": true,
+            "description": "Hypothesis: Aligned with Kong API Gateway. Less suited to use with other API Gateways."
+        },
+        {
+            "name": "SwaggerHub",
+            "quadrant": "Tools",
+            "ring": "hold",
+            "isNew": true,
+            "description": "Hypothesis: High level of feature overlap with Postman. Use it instead."
+        },
+        {
+            "name": "Rabbit MQ",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": false,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "IBM MQ",
+            "quadrant": "Tools",
+            "ring": "hold",
+            "isNew": false,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "Azure Static Websites",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Alternative simple, cheap way to deploy personal projects via BLOB storage."
+        },
+        {
+            "name": "GitHub Actions",
+            "quadrant": "Tools",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Simple way to add CI/CD capability to projects."
+        },
+
+
+        {
+            "name": "AsyncAPI",
+            "quadrant": "Standards & Frameworks",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Hypothesis: API/design first possibilities applying to asynchronous communications (EDA)"
+        },
+        {
+            "name": "CloudEvents",
+            "quadrant": "Standards & Frameworks",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Hypothesis: Potentially enhance existing event structure to be CloudEvents compliant.<br/><br/>Note: D365 business events to Event Grid are already using this."
+        },
+        {
+            "name": "OpenAPI",
+            "quadrant": "Standards & Frameworks",
+            "ring": "adopt",
+            "isNew": false,
+            "description": "Hypothesis: Industry and tooling support will allow a design first approach, while utilising machine readable API specifications through the entire lifecycle"
+        },
+        {
+            "name": "AMQP",
+            "quadrant": "Standards & Frameworks",
+            "ring": "adopt",
+            "isNew": false,
+            "description": "Hypothesis: Provides some vendor/implementation independence from messaging platform, even if only for early development environments."
+        },
+        {
+            "name": "GraphQL",
+            "quadrant": "Standards & Frameworks",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Potential for 'Backends for Frontends' pattern and Experience APIs. Watch out for anti-pattern: Exposing Application Internal Structure/Logic"
+        },
+        {
+            "name": "OData",
+            "quadrant": "Standards & Frameworks",
+            "ring": "trial",
+            "isNew": false,
+            "description": "Utilised by Dynamics 365 and SalesForce. Watch out for anti-pattern: Exposing Application Internal Structure/Logic"
+        },
+
+
+        {
+            "name": "Design First APIs",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a simple description"
+        },
+        {
+            "name": "Architectural Fitness Functions and Evolutionary Architecture",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "Products, not Projects",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Hypothesis: greater ownership and engagement, and less short term thinking."
+        },
+
+
+        {
+            "name": "Kubernetes",
+            "quadrant": "Platforms",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a simple description"
+        },
+        {
+            "name": "Azure PaaS",
+            "quadrant": "Platforms",
+            "ring": "adopt",
+            "isNew": false,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "Azure DevOps",
+            "quadrant": "Platforms",
+            "ring": "adopt",
+            "isNew": false,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "CloudFlare",
+            "quadrant": "Platforms",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Simple, cheap way to deploy personal projects."
+        }
+    ]
+}

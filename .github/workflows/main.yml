@@ -7,10 +7,12 @@ on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: 
-      - main
+      - na
+    #  - main
   pull_request:
     branches: 
-      - main
+      - na
+    #  - main
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -51,5 +53,7 @@ jobs:
       - name: Build Distribution
         run: npx tech-radar-generator radar-static.json ./dist
       
-      - name: Build
-        run: API_KEY=${{ secrets.API_KEY }} CLIENT_ID=${{ secrets.CLIENT_ID }} GTM_ID=${{ secrets.GTM_ID }} ENABLE_GOOGLE_AUTH=true npm run build
+      # Note: Currently built via CloudFlare native GitHub integration.
+      # Will further investigate using GitHub Actions if branding is required.
+      # - name: Build
+      #  run: API_KEY=${{ secrets.API_KEY }} CLIENT_ID=${{ secrets.CLIENT_ID }} GTM_ID=${{ secrets.GTM_ID }} ENABLE_GOOGLE_AUTH=true npm run build

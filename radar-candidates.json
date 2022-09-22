@@ -1,0 +1,38 @@
+{
+    "title": "Matt's Technology Radar Candidates",
+    "quadrants": [
+        "Practices & Techniques",
+        "Tools",
+        "Platforms",
+        "Standards & Frameworks"
+    ],
+    "rings": [
+        "adopt",
+        "trial",
+        "assess",
+        "hold"
+    ],
+    "blips": [
+        {
+            "name": "Technical Management Plan",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "Terraform",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+        },
+        {
+            "name": "Azure Bicep",
+            "quadrant": "Standards & Frameworks",
+            "ring": "assess",
+            "isNew": true,
+            "description": "<p>For those who prefer a more natural language than JSON for infrastructure code, <a href=\"https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep\">Azure Bicep</a> is a domain-specific language (DSL) that uses a declarative syntax. It supports reusable parameterized templates for modular resource definitions. A <a href=\"https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep\">Visual Studio Code extension</a> provides instant type-safety, intellisense and syntax checking, and the compiler allows bidirectional transpilation to and from ARM templates. Bicep's resource-oriented DSL and native integration with the Azure ecosystem make it a compelling choice for Azure infrastructure development</p>"
+        }
+    ]
+}

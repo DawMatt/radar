@@ -1,5 +1,5 @@
 {
-    "title": "Integration Radar",
+    "title": "Matt's Technology Radar",
     "quadrants": [
         "Practices & Techniques",
         "Tools",
@@ -19,6 +19,13 @@
             "ring": "assess",
             "isNew": true,
             "description": "<p>Static error- and style-checking tools often emerge after a new language gains popularity. These tools are generically known as linters — after the Unix lint utility which statically analyses C code. These tools catch errors early, before code even gets compiled, and can help keep code reviews focused on more significant topics than code styles and formatting. A recent instance of this pattern is <a href=\"https://stoplight.io/open-source/spectral/\">Spectral</a>, a linter for YAML and JSON. Although Spectral is a generic tool for these formats, its main target is OpenAPI and AsyncAPI. Spectral ships with a comprehensive set of out-of-the-box rules for these specs that can save developers headaches when designing and implementing APIs or event-driven collaboration. These rules check for proper API parameter specifications or the existence of a license statement in the spec, among other things.</p><p>BlueScope's Integration team is assessing Spectral's use in both the IDE (via Visual Studio and Visual Studio Code extensions) and in build pipelines. If adopted a custom ruleset would be published to reflect BlueScope's API Guidelines, making it easier for developers to align with current best practices in API development.</p>"
+        },
+        {
+            "name": "Optic",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "<p>CI compatible OpenAPI evolution checking tool.</p>"
         },
         {
             "name": "AsyncAPI",
@@ -112,13 +119,6 @@
             "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
         },
         {
-            "name": "Technical Management Plan",
-            "quadrant": "Practices & Techniques",
-            "ring": "assess",
-            "isNew": true,
-            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
-        },
-        {
             "name": "Azure DevOps",
             "quadrant": "Platforms",
             "ring": "adopt",
@@ -126,32 +126,32 @@
             "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
         },
         {
-            "name": "Terraform",
-            "quadrant": "Tools",
-            "ring": "assess",
-            "isNew": true,
-            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+            "name": "CloudFlare",
+            "quadrant": "Platforms",
+            "ring": "trial",
+            "isNew": "new",
+            "description": "<p>Simple, cheap way to deploy personal projects.</p>"
         },
         {
-            "name": "Azure Bicep",
-            "quadrant": "Standards & Frameworks",
+            "name": "Azure Static Websites",
+            "quadrant": "Tools",
             "ring": "assess",
+            "isNew": "new",
+            "description": "<p>Alternative simple, cheap way to deploy personal projects via BLOB storage.</p>"
+        },
+        {
+            "name": "GitHub Actions",
+            "quadrant": "Standards & Frameworks",
+            "ring": "trial",
             "isNew": true,
-            "description": "<p>For those who prefer a more natural language than JSON for infrastructure code, <a href=\"https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep\">Azure Bicep</a> is a domain-specific language (DSL) that uses a declarative syntax. It supports reusable parameterized templates for modular resource definitions. A <a href=\"https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep\">Visual Studio Code extension</a> provides instant type-safety, intellisense and syntax checking, and the compiler allows bidirectional transpilation to and from ARM templates. Bicep's resource-oriented DSL and native integration with the Azure ecosystem make it a compelling choice for Azure infrastructure development</p>"
+            "description": "<p>Simple way to add CI/CD capability to projects.</p>"
         },
         {
             "name": "Products, not Projects",
             "quadrant": "Practices & Techniques",
             "ring": "assess",
             "isNew": true,
-            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines.<br /><br />This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
-        },
-        {
-            "name": "webMethods A2A and B2B",
-            "quadrant": "Platforms",
-            "ring": "hold",
-            "isNew": false,
-            "description": "The webMethods product suite implemented Application to Application (A2A) and Business to Business (B2B) integrations prior to selecting the Future Integration Platform (FIP) in 2016.<br/>webMethods is deprecated and no new development should occur in this platform. Projects are being established to replace the remaining webMethods integrations by the end of 2024.<br/><a href=\"https://bssfip.atlassian.net/wiki/spaces/~62336401/pages/2440462337/webMethods+A2A+and+B2B\">Blip history</a>"
+            "description": "<p>Hypothesis: greater ownership and engagement, and less short term thinking.</p>"
         }
     ]
 }

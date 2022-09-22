@@ -6,6 +6,8 @@ Configured to continuously deploy via [CloudFlare's Pages](https://dash.cloudfla
 
 ## CloudFlare Pages project settings
 
+Settings for CloudFlare Pages:
+
 | Item | Value |
 | --- | --- |
 | Type | GitHub Repository Connection |
@@ -15,22 +17,22 @@ Configured to continuously deploy via [CloudFlare's Pages](https://dash.cloudfla
 
 ## Local development
 
-The technology radar can be tested locally.
+The project supports local technology radar testing.
 
-If building the radar locally you can either run the npm package locally or via Docker.
+If building the radar locally you can either run the `npm` package locally or via Docker.
 
-The `./dist` folder contains the radar build output ready for use with a web server.
+Radar build script outputs to the `./dist` folder, ready for use with a web server.
 
-If you have python3 installed you can use `test-local.sh` to serve the radar at http://localhost:8000 .
+If you have python3 installed you can use `test-local.sh` to serve the radar at [http://localhost:8000](http://localhost:8000) .
 
-## Local NPM
+## Node package locally
 
 Please note this requires an older version of Node.js due to package dependencies. Compatible with Node.js v12 to v14.
 
-The environment can be setup using: `setup-local.sh` if a compatible version of Node.js is installed.
+The environment can be setup using: `setup-local.sh`. It requires a compatible version of Node.js.
 
-The build is performed using: `build-local.sh`.
+The build uses: `build-local.sh`.
 
-## Docker NPM
+## Node package via Docker
 
-The build is performed using: `build-local-docker.sh`.
+The build uses: `build-local-docker.sh`.

@@ -25,7 +25,7 @@
             "quadrant": "Tools",
             "ring": "assess",
             "isNew": true,
-            "description": "CI compatible OpenAPI evolution checking tool.<br/><br/>Source: <a href=\"https://www.apiscene.io/lifecycle/detecting-breaking-changes-across-api-versions/\">APIScene/Kin Lane</a>"
+            "description": "<a href=\"https://github.com/opticdev/optic\">Optic</a> is a CI compatible OpenAPI evolution checking tool. Allows diffing versions of the same OpenAPI specification, and comparing the specification to requests and responses.<br/><br/>Source: <a href=\"https://www.apiscene.io/lifecycle/detecting-breaking-changes-across-api-versions/\">APIScene/Kin Lane</a>"
         },
         {
             "name": "Postman",
@@ -134,8 +134,15 @@
             "isNew": false,
             "description": "Utilised by Dynamics 365 and SalesForce. Watch out for anti-pattern: Exposing Application Internal Structure/Logic"
         },
+        {
+            "name": "C4 Model",
+            "quadrant": "Standards & Frameworks",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Hypothesis: The <a href=\"https://c4model.com\">C4 Model</a> is a relatively simple and flexible way to frame solutions. Using the top two layers (Context and Container) of the model should provide a useful way to explain integration architectures, and source data for an integration catalog, while still allowing programs and projects to choose their own architectural methods to use for managing the overall solution."
+        },
 
-
+    
         {
             "name": "Design First APIs",
             "quadrant": "Practices & Techniques",

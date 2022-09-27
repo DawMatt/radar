@@ -90,6 +90,13 @@
             "isNew": true,
             "description": "Simple way to add CI/CD capability to projects."
         },
+        {
+            "name": "Backstage",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "<a href=\"https://backstage.io/\">Backstage</a> is an OSS developer portal from Spotify. Used for applications not just APIs. Includes a plugin architecture with some interesting plugins (e.g. C4 diagram generators)."
+        },
 
 
         {
@@ -140,6 +147,13 @@
             "ring": "trial",
             "isNew": true,
             "description": "Hypothesis: The <a href=\"https://c4model.com\">C4 Model</a> is a relatively simple and flexible way to frame solutions. Using the top two layers (Context and Container) of the model should provide a useful way to explain integration architectures, and source data for an integration catalog, while still allowing programs and projects to choose their own architectural methods to use for managing the overall solution."
+        },
+        {
+            "name": "APIOps Cycles",
+            "quadrant": "Standards & Frameworks",
+            "ring": "trial",
+            "isNew": true,
+            "description": "<a href=\"https://www.apiopscycles.com/the-method\">APIOps Cycles</a> is an open API method and set of templates used for managing API lifecycles. The API Canvas look to have great potential and have been utilised by various Australian companies (e.g. NAB)."
         },
 
     

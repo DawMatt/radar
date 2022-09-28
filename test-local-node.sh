@@ -4,3 +4,7 @@
 #  npm install tech-radar-generator
 
 npx tech-radar-generator radar.json ./dist
+
+echo Launch via http://localhost:8000
+
+python3 -m http.server  --directory ./dist

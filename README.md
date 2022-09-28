@@ -21,18 +21,14 @@ The project supports local technology radar testing.
 
 If building the radar locally you can either run the `npm` package locally or via Docker.
 
-Radar build script outputs to the `./dist` folder, ready for use with a web server.
+Radar `test` scripts output to the `./dist` folder, and invoke the Python web server. The `run` scripts serve the radar without rebuilding the content first.
 
-If you have python3 installed you can use `test-local.sh` to serve the radar at [http://localhost:8000](http://localhost:8000) .
+Please note that if running the tech-radar-generator `npm` package locally it requires an older version of Node.js due to package dependencies. The package is compatible with Node.js v12 to v14 and it's assumed to have already been installed on the development environment. The package can be setup using: `setup-local.sh`.
 
-## Node package locally
+### Mac
 
-Please note this requires an older version of Node.js due to package dependencies. Compatible with Node.js v12 to v14.
+If you have python3 installed you can use either `test-local-docker.sh` or `test-local-node.sh` to generate serve the radar at [http://localhost:8000](http://localhost:8000) . Choose the appropriate script based upon your system's configuration and availability of dependencies.
 
-The environment can be setup using: `setup-local.sh`. It requires a compatible version of Node.js.
+### Windows
 
-The build uses: `build-local.sh`.
-
-## Node package via Docker
-
-The build uses: `build-local-docker.sh`.
+If you have python installed you can use `test-local-docker.ps1` to generate and serve the radar at [http://localhost:8000](http://localhost:8000) .

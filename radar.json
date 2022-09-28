@@ -14,6 +14,57 @@
     ],
     "blips": [
         {
+            "name": "Design First APIs",
+            "quadrant": "Practices & Techniques",
+            "ring": "trial",
+            "isNew": true,
+            "description": "APIs are created using a design-first approach. We 'start with why' of the API to understand its value and purpose before proceeding to technical details. This includes establishing the contract for the API before proceeding to detailed design and build.<br/><br/>Candidate techniques to support this practice:<br/><ul><li><a href=\"https://www.apiopscycles.com/method/api-canvas\">API Canvas</a></li><li>OpenAPI Contracts</li><ul>"
+        },
+        {
+            "name": "Architectural Fitness Functions and Evolutionary Architecture",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "<a href=\"https://www.thoughtworks.com/en-au/radar/techniques/architectural-fitness-function\">Architectural Fitness Functions</a><br /><br /> provides guard rails to ensure an architecture doesn't stray outside of the bounds the architecture is designed to support."
+        },
+        {
+            "name": "Products, not Projects",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Hypothesis: greater ownership and engagement, and less short term thinking."
+        },
+        {
+            "name": "Interface mocking",
+            "quadrant": "Practices & Techniques",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Interface mocking presents an executable interface consumers without requiring the as-designed implementation to have completed. This can be used to support \"design first\" interfacing practices, simplify testing prior to Systems Integration Testing (SIT), and to effectively provide an additional integration environment with either stable or dynamic transactional data."
+        },
+        {
+            "name": "Team Topology",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Team topologies represents a technique for deliberately designing teams and organisations to enhance delivery speed and safety. In particular am interested to understand how platform and stream aligned teams can be applied in an integration environment."
+        },
+        {
+            "name": "Event Storming",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "When organizations move toward microservices, one of the main drivers is the hope for faster time to market. However, this aspiration only tends to be realized when services (and their supporting teams) are cleanly sliced along long-lived business domain boundaries. Otherwise meaningful features will naturally require tight coordination between multiple teams and services, introducing natural friction in competing roadmap prioritization. The solution to this problem is good domain modeling, and event storming has rapidly become one of our favorite methods for rapidly identifying the key concepts in a problem space and aligning a variety of stakeholders in the best way to slice potential solutions."
+        },
+        {
+            "name": "Domain Driven Design (DDD)",
+            "quadrant": "Practices & Techniques",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Domain-Driven Design is an approach to software development that centers the development on programming a domain model that has a rich understanding of the processes and rules of a domain. The name comes from a 2003 book by Eric Evans that describes the approach through a catalog of patterns.<br/><br/>References: <a href=\"https://martinfowler.com/bliki/DomainDrivenDesign.html\">Martin Fowler</a>"
+        },
+
+
+        {
             "name": "Spectral",
             "quadrant": "Tools",
             "ring": "assess",
@@ -67,14 +118,14 @@
             "quadrant": "Tools",
             "ring": "assess",
             "isNew": false,
-            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+            "description": "Rabbit MQ is a message queueing product that has been used within the engineering space. It is being considered as a more affordable replacement for IBM MQ."
         },
         {
             "name": "IBM MQ",
             "quadrant": "Tools",
             "ring": "hold",
             "isNew": false,
-            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
+            "description": "IBM's Message Queueing (MQ) product used for communications across a wide variety of operating systems, including mainframes."
         },
         {
             "name": "Azure Static Websites",
@@ -96,6 +147,50 @@
             "ring": "assess",
             "isNew": true,
             "description": "<a href=\"https://backstage.io/\">Backstage</a> is an OSS developer portal from Spotify. Used for applications not just APIs. Includes a plugin architecture with some interesting plugins (e.g. C4 diagram generators)."
+        },
+        {
+            "name": "portman",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "<a href=\"https://getportman.com/\">Portman</a> is an OSS utility to 'Port OpenAPI Specs to Postman Collections, inject test suite and run via Newman'. Expected to be useful for contract and variation (fuzz) testing based upon OpenAPI specifications.<br/><br/>References: <a href=\"https://github.com/apideck-libraries/portman\">GitHub</a>, <a href=\"https://youtu.be/4qWkFfmJ6To\">APIDays Australia 2022 presentation video: Scale Your API teams with a Design-First Approach</a>"
+        },
+        {
+            "name": "Integration Catalogue",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "An Integration Catalogue captures an inventory of all current and future system to system integrations. It supports the practice of Integration Governance by providing a means to capture and identify integrations, and record the outcome of any governance assessments. Also has potential as a source of data for visualising an integration topology."
+        },
+
+    
+        {
+            "name": "Kubernetes",
+            "quadrant": "Platforms",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Kubernetes has become the default answer to the problem of deploying containers into a cluster of machines, which is becoming an increasingly common scenario."
+        },
+        {
+            "name": "Azure PaaS",
+            "quadrant": "Platforms",
+            "ring": "adopt",
+            "isNew": false,
+            "description": "Azure Platform as a Service (PaaS). An increasingly broad set of platform services offered by Azure, where the underlying infrastructure and availability is managed by Microsoft and the consumer is only responsible for the design and configuration of the capabilities relevant to their requirements."
+        },
+        {
+            "name": "Azure DevOps",
+            "quadrant": "Platforms",
+            "ring": "adopt",
+            "isNew": false,
+            "description": "Azure DevOps services contain a set of managed services, including hosted Git repos, CI/CD pipelines, automated testing tooling, backlog management tooling and artifact repository."
+        },
+        {
+            "name": "CloudFlare",
+            "quadrant": "Platforms",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Simple, cheap way to deploy personal projects."
         },
 
 
@@ -154,59 +249,6 @@
             "ring": "trial",
             "isNew": true,
             "description": "<a href=\"https://www.apiopscycles.com/the-method\">APIOps Cycles</a> is an open API method and set of templates used for managing API lifecycles. The API Canvas look to have great potential and have been utilised by various Australian companies (e.g. NAB)."
-        },
-
-    
-        {
-            "name": "Design First APIs",
-            "quadrant": "Practices & Techniques",
-            "ring": "assess",
-            "isNew": true,
-            "description": "This is a simple description"
-        },
-        {
-            "name": "Architectural Fitness Functions and Evolutionary Architecture",
-            "quadrant": "Practices & Techniques",
-            "ring": "assess",
-            "isNew": true,
-            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
-        },
-        {
-            "name": "Products, not Projects",
-            "quadrant": "Practices & Techniques",
-            "ring": "assess",
-            "isNew": true,
-            "description": "Hypothesis: greater ownership and engagement, and less short term thinking."
-        },
-
-
-        {
-            "name": "Kubernetes",
-            "quadrant": "Platforms",
-            "ring": "assess",
-            "isNew": true,
-            "description": "This is a simple description"
-        },
-        {
-            "name": "Azure PaaS",
-            "quadrant": "Platforms",
-            "ring": "adopt",
-            "isNew": false,
-            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
-        },
-        {
-            "name": "Azure DevOps",
-            "quadrant": "Platforms",
-            "ring": "adopt",
-            "isNew": false,
-            "description": "This is a <a href=\"/\">description</a><br /><br />Spanning several lines."
-        },
-        {
-            "name": "CloudFlare",
-            "quadrant": "Platforms",
-            "ring": "trial",
-            "isNew": true,
-            "description": "Simple, cheap way to deploy personal projects."
         }
     ]
 }

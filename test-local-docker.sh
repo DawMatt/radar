@@ -6,9 +6,11 @@
 
 export REPO=dawmatt/tech-radar-generator
 export TAG=latest
+export URL=http://localhost:8000
 
 docker run -d --rm -v "$(pwd)":/build $REPO:$TAG
 
-echo Launch via http://localhost:8000
+echo Launch via $URL
+open $URL
 
 python3 -m http.server  --directory ./dist

@@ -14,7 +14,7 @@
     ],
     "blips": [
         {
-            "name": "Design First APIs",
+            "name": "Design first APIs",
             "quadrant": "Practices & Techniques",
             "ring": "trial",
             "isNew": true,
@@ -42,11 +42,11 @@
             "description": "Interface mocking presents an executable interface consumers without requiring the as-designed implementation to have completed. This can be used to support \"design first\" interfacing practices, simplify testing prior to Systems Integration Testing (SIT), and to effectively provide an additional integration environment with either stable or dynamic transactional data."
         },
         {
-            "name": "Team Topology",
+            "name": "Team Topologies",
             "quadrant": "Practices & Techniques",
             "ring": "assess",
             "isNew": true,
-            "description": "Team topologies represents a technique for deliberately designing teams and organisations to enhance delivery speed and safety. In particular am interested to understand how platform and stream aligned teams can be applied in an integration environment."
+            "description": "Team topologies represents a technique for deliberately designing teams and organisations to enhance delivery speed and safety. Team topologies should improve cross-team interactions and clarify roles and responsibilities, and it will be interesting to see how platform and stream aligned teams can be applied in an integration environment."
         },
         {
             "name": "Event Storming",
@@ -61,6 +61,20 @@
             "ring": "trial",
             "isNew": true,
             "description": "Domain-Driven Design is an approach to software development that centers the development on programming a domain model that has a rich understanding of the processes and rules of a domain. The name comes from a 2003 book by Eric Evans that describes the approach through a catalog of patterns.<br/><br/>References: <a href=\"https://martinfowler.com/bliki/DomainDrivenDesign.html\">Martin Fowler</a>"
+        },
+        {
+            "name": "Gartner Integration Delivery Modernisation Guidance",
+            "quadrant": "Practices & Techniques",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Hypothesis: Gartner solution path and related guidance will help us clarify strategy and expectations with our consumers."
+        },
+        {
+            "name": "Technology Strategy Patterns",
+            "quadrant": "Practices & Techniques",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Hypothesis: Will supplement Gartner's more integration specific advice and help flesh out our strategy."
         },
 
 
@@ -162,8 +176,22 @@
             "isNew": true,
             "description": "An Integration Catalogue captures an inventory of all current and future system to system integrations. It supports the practice of Integration Governance by providing a means to capture and identify integrations, and record the outcome of any governance assessments. Also has potential as a source of data for visualising an integration topology."
         },
+        {
+            "name": "SQL Server's Graph Database",
+            "quadrant": "Tools",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Hypothesis: Integration observability data can be stored and analysed using SQL Server's graph capabilities."
+        },
+        {
+            "name": "Power BI",
+            "quadrant": "Tools",
+            "ring": "trial",
+            "isNew": true,
+            "description": "Hypothesis: Integration observability and configuration data can be analysed and displayed using Power BI capabilities. More complicated visualisations can be enabled using R."
+        },
 
-    
+        
         {
             "name": "Kubernetes",
             "quadrant": "Platforms",
@@ -249,6 +277,13 @@
             "ring": "trial",
             "isNew": true,
             "description": "<a href=\"https://www.apiopscycles.com/the-method\">APIOps Cycles</a> is an open API method and set of templates used for managing API lifecycles. The API Canvas look to have great potential and have been utilised by various Australian companies (e.g. NAB)."
+        },
+        {
+            "name": "Graph Database",
+            "quadrant": "Standards & Frameworks",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Hypothesis: Integration involves naturally graph oriented data. Assessing whether graph databases give us an easier way to work with observability data."
         }
     ]
 }

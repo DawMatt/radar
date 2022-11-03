@@ -76,6 +76,13 @@
             "isNew": true,
             "description": "Hypothesis: Will supplement Gartner's more integration specific advice and help flesh out our strategy."
         },
+        {
+            "name": "OWASP Cheat Sheets",
+            "quadrant": "Practices & Techniques",
+            "ring": "assess",
+            "isNew": true,
+            "description": "OWASP project making content more accessible. Icludes REST, GraphQL, Docker, and other topics. Tagline - Life is too short. AppSec is tough. Cheat! From 'PRO TALK (API): GraphQL - Security Implications and Best Practices' presentation at API World 2022.<br/><br/>References: <a href=\"https://cheatsheetseries.owasp.org/\">Project site</a>"
+        },
 
 
         {
@@ -189,6 +196,27 @@
             "ring": "trial",
             "isNew": true,
             "description": "Hypothesis: Integration observability and configuration data can be analysed and displayed using Power BI capabilities. More complicated visualisations can be enabled using R."
+        },
+        {
+            "name": "API Insights",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Automates governance of APIs in line with your API guidelines. Includes VS Code extension so can shift governance left, in addition to centralised site. Can also support detecting breaking changes across API versions (like Optic). From 'PRO TALK (API): The 12 facets of the OpenAPI Specification' presentation at API World 2022.<br/><br/>References: <a href=\"https://developer.cisco.com/site/api-insights/\">Project site</a>, <a href=\"https://github.com/cisco-developer/api-insights\">GitHub</a>"
+        },
+        {
+            "name": "API Clarity",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "Analyses API traffic and can compares to API specifications. Can integrate with API Gateways. From 'PRO TALK (API): The 12 facets of the OpenAPI Specification' presentation at API World 2022.<br/><br/>References: <a href=\"https://www.apiclarity.io/\">Project site</a>, <a href=\"https://github.com/openclarity/apiclarity\">GitHub</a>"
+        },
+        {
+            "name": "Ortelius",
+            "quadrant": "Tools",
+            "ring": "assess",
+            "isNew": true,
+            "description": "OSS Software Bill of Materials platform for understanding dependencies across a whole microservice application. Roadmap includes some level of integration with Backstage. From 'OPEN TALK (API): Maintaining Application SBOMs in a Microservices Architecture' presentation at API World 2022.<br/><br/>References: <a href=\"https://www.ortelius.io\">Project site</a>, <a href=\"https://github.com/ortelius/ortelius\">GitHub</a>"
         },
 
         
